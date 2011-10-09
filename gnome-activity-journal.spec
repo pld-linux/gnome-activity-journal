@@ -1,11 +1,11 @@
 Summary:	GUI to browse and search Zeitgeist activities
 Name:		gnome-activity-journal
-Version:	0.6.0
+Version:	0.8.0
 Release:	0.1
 License:	GPL v3+
 Group:		X11/Applications
-Source0:	http://launchpad.net/gnome-activity-journal/0.6/0.6.0/+download/%{name}-%{version}.tar.gz
-# Source0-md5:	0a7597d0b81715972d3784cde0c751e9
+Source0:	http://launchpad.net/gnome-activity-journal/0.8/%{version}/+download/%{name}-%{version}.tar.gz
+# Source0-md5:	46e493f090b41a49cfce422203791bc0
 URL:		http://launchpad.net/gnome-activity-journal
 BuildRequires:	python
 BuildRequires:	python-distutils-extra
