@@ -1,7 +1,7 @@
 Summary:	GUI to browse and search Zeitgeist activities
 Name:		gnome-activity-journal
 Version:	0.8.0
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		X11/Applications
 Source0:	http://launchpad.net/gnome-activity-journal/0.8/%{version}/+download/%{name}-%{version}.tar.gz
@@ -13,7 +13,7 @@ BuildRequires:	rpmbuild(macros) >= 1.311
 Requires(post,postun):	gtk-update-icon-cache
 Requires(post,preun):	GConf2
 Requires:	hicolor-icon-theme
-Requires:	python-cairo
+Requires:	python-pycairo
 Requires:	python-dbus
 Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
