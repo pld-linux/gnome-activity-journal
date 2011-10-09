@@ -13,17 +13,18 @@ BuildRequires:	rpmbuild(macros) >= 1.311
 Requires(post,postun):	gtk-update-icon-cache
 Requires(post,preun):	GConf2
 Requires:	hicolor-icon-theme
-Requires:	python-PIL
-Requires:	python-chardet
+Requires:	python-cairo
 Requires:	python-dbus
 Requires:	python-gnome-gconf
 Requires:	python-gnome-ui
-Requires:	python-gstreamer
-Requires:	python-pygments
 Requires:	python-pygobject
 Requires:	python-pygtk-gtk
+Requires:	python-pygtk-pango
 Requires:	python-pyxdg
 Requires:	zeitgeist
+Suggests:	python-chardet
+Suggests:	python-gstreamer
+Suggests:	python-pygments
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
